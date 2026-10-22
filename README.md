@@ -6,6 +6,11 @@ Clasificación binaria de **enceste (y = +1) vs fallo (y = −1)** con Máquinas
 comparando una frontera **lineal** contra una **no lineal (kernel RBF)**, con búsqueda de hiperparámetros
 por **GridSearchCV** y una interfaz interactiva en Streamlit + Plotly.
 
+## Presentación
+
+Diapositivas de la sustentación: [`presentacion/MP3_SVM_NBA.pptx`](presentacion/MP3_SVM_NBA.pptx)
+(incluye notas del orador).
+
 ## Datos
 
 - Fuente: *NBA shot logs* (temporada 2014-15, datos de tracking SportVU), publicado en Kaggle
@@ -65,5 +70,6 @@ tiempos de entrenamiento y predicción, número de vectores de soporte y una cur
 | `app.py` | Interfaz (Streamlit + Plotly) |
 | `artifacts/` | `results.json`, `linear.joblib`, `rbf.joblib` |
 | `data/shot_logs.csv` | Dataset original (sin modificar) |
+| `presentacion/MP3_SVM_NBA.pptx` | Diapositivas de la sustentación |
 
 Probado con Python 3.13, scikit-learn 1.9, Streamlit 1.64, Plotly 7.1, pandas 3.0.
